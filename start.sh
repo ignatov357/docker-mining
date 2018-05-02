@@ -8,6 +8,8 @@
 #./ethminer -U -S eth.pool.minergate.com:45791 -u ignatov357@mail.ru -v 0
 
 
+apt-get update
+apt-get install -y wget git
 wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_7.5-18_amd64.deb
 sudo dpkg -i cuda-repo-ubuntu1404_7.5-18_amd64.deb
 sudo apt-get -y install software-properties-common
