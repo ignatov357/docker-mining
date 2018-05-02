@@ -9,13 +9,13 @@
 
 
 apt-get update
-apt-get install -y wget git cmake libjsonrpccpp-dev
+apt-get install -y wget
 wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_7.5-18_amd64.deb
 dpkg -i cuda-repo-ubuntu1404_7.5-18_amd64.deb
 apt-get -y install software-properties-common
 add-apt-repository -y ppa:ethereum/ethereum
 apt-get update
-apt-get install git cmake libcryptopp-dev libleveldb-dev libjsoncpp-dev libjson-rpc-cpp-dev libboost-all-dev libgmp-dev libreadline-dev libcurl4-gnutls-dev ocl-icd-libopencl1 opencl-headers mesa-common-dev libmicrohttpd-dev build-essential cuda -y
+apt-get install git cmake libcryptopp-dev libleveldb-dev libjsoncpp-dev libjsonrpccpp-dev libboost-all-dev libgmp-dev libreadline-dev libcurl4-gnutls-dev ocl-icd-libopencl1 opencl-headers mesa-common-dev libmicrohttpd-dev build-essential cuda -y
 git clone https://github.com/Genoil/cpp-ethereum/
 cd cpp-ethereum/
 mkdir build
