@@ -9,9 +9,9 @@
 
 
 apt-get update
-apt-get install -y wget git cmake install libjsonrpccpp-dev
+apt-get install -y wget git cmake libjsonrpccpp-dev
 wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_7.5-18_amd64.deb
-dpkg -i cuda-repo-ubuntu1404_7.5-18_amd64.deb -y
+dpkg -i -y cuda-repo-ubuntu1404_7.5-18_amd64.deb
 apt-get -y install software-properties-common
 add-apt-repository -y ppa:ethereum/ethereum
 apt-get update
