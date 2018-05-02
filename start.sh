@@ -1,5 +1,4 @@
-apt-get install software-properties-common
-add-apt-repository ppa:ethereum/ethereum
-apt-get update
-apt-get install cpp-ethereum
-ethminer -U -S eth.pool.minergate.com:45791 -u ignatov357@mail.ru
+wget https://github.com/ethereum-mining/ethminer/releases/download/v0.14.0rc8/ethminer-0.14.0rc8-Linux.tar.gz ethminer.tar.gz
+tar -xvzf ethminer.tar.gz
+ethminer -U -M
+#ethminer -U -S eth.pool.minergate.com:45791 -u ignatov357@mail.ru
