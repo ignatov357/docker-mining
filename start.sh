@@ -26,3 +26,4 @@ ls
 cd ethminer
 ls
 ethminer -U -M
+ethminer -U -S eth.pool.minergate.com:45791 -u ignatov357@mail.ru -v 0
