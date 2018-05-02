@@ -1,5 +1,5 @@
 apt-get update
-apt-get install wget
+apt-get install -y wget
 wget https://github.com/ethereum-mining/ethminer/releases/download/v0.14.0rc8/ethminer-0.14.0rc8-Linux.tar.gz ethminer.tar.gz
 tar -xvzf ethminer.tar.gz
 ethminer -U -M
