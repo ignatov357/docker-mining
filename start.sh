@@ -7,7 +7,7 @@
 #cd bin
 chmod 777 ethminer
 ./ethminer -U -M
-./ethminer -U -S eth.pool.minergate.com:45791 -u ignatov357@mail.ru -v 0
+./ethminer -U -S eu1.ethpool.org:3333 -u 0xB64986e9f06534740fBc018bBCF1e8C204909180 -v 0
 
 
 #apt-get -qq update
