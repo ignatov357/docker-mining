@@ -1,7 +1,8 @@
-apt-get update
+#apt-get update
 #apt-get upgrade -y
-apt-get install -y wget
-wget https://github.com/ethereum-mining/ethminer/releases/download/v0.13.0/ethminer-0.13.0-Linux.tar.gz -O ethminer.tar.gz
+#apt-get install -y wget
+#wget https://github.com/ethereum-mining/ethminer/releases/download/v0.13.0/ethminer-0.13.0-Linux.tar.gz -O ethminer.tar.gz
+curl https://github.com/ethereum-mining/ethminer/releases/download/v0.13.0/ethminer-0.13.0-Linux.tar.gz --output ethminer.tar.gz
 tar -xvzf ethminer.tar.gz
 cd bin
 ./ethminer -U -M
