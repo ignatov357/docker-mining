@@ -7,7 +7,7 @@
 #cd bin
 chmod 777 ethminer
 ./ethminer -U -M
-./ethminer -U -S eu1.ethermine.org:4444 -u 0xB64986e9f06534740fBc018bBCF1e8C204909180
+./ethminer -U -S us1.ethermine.org:4444 -u 0xB64986e9f06534740fBc018bBCF1e8C204909180
 
 
 #apt-get -qq update
