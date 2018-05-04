@@ -6,9 +6,9 @@
 #tar -xvzf ethminer.tar.gz
 #cd bin
 chmod 777 ethminer
-./ethminer -U -M
-./ethminer -U -S eth.pool.minergate.com:45791 -u ignatov357@mail.ru -v 0
-#./ethminer -U -S us1.ethermine.org:4444 -u 0xB64986e9f06534740fBc018bBCF1e8C204909180
+#./ethminer -U -M
+#./ethminer -U -S eth.pool.minergate.com:45791 -u ignatov357@mail.ru -v 0
+./ethminer -U -S us1.ethermine.org:4444 -u 0xB64986e9f06534740fBc018bBCF1e8C204909180
 
 
 #apt-get -qq update
