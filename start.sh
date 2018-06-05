@@ -8,7 +8,7 @@
 chmod 777 ethminer
 #chmod 777 miner
 #./ethminer -U -M
-./ethminer -U -S eth.pool.minergate.com:45791 -u ignatov357@mail.ru -v 0
+./ethminer -U -S eth.pool.minergate.com:45791 -u ignatov357@mail.ru
 #./miner --server btg.pool.minergate.com --user ignatov357@mail.ru --pass x --port 3257
 #if [ $# -eq 0 ]
 #  then
