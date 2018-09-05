@@ -12,9 +12,9 @@ chmod 777 ethminer
 #./miner --server btg.pool.minergate.com --user ignatov357@mail.ru --pass x --port 3257
 if [ $# -eq 0 ]
   then
-    ./ethminer -U -S eu1-etc.ethermine.org -u 0xB64986e9f06534740fBc018bBCF1e8C204909180
+    ./ethminer -U -S eu1-etc.ethermine.org:4444 -u 0xB64986e9f06534740fBc018bBCF1e8C204909180
   else
-    ./ethminer -U -S eu1-etc.ethermine.org -u 0xB64986e9f06534740fBc018bBCF1e8C204909180.$1
+    ./ethminer -U -S eu1-etc.ethermine.org:4444 -u 0xB64986e9f06534740fBc018bBCF1e8C204909180.$1
 fi
 #./ethminer -SP 2 -U -S daggerhashimoto.usa.nicehash.com:3353 -O 3ATLMcX6DBZect76PmkJgTjGftaXD4kRXo.paperspace:x
 
